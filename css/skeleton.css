@@ -205,7 +205,7 @@ h4,
 h5,
 h6,
 a {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     color: #1A2129;
 }
 
