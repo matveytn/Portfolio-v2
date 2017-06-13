@@ -169,34 +169,13 @@ body {
     /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.6;
     font-weight: 300;
-    font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, sans-serif;
     color: #222;
 }
 
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url('web_fonts/montserrat_bold/Montserrat-SemiBold-webfont.eot');
-    src: url('web_fonts/montserrat_bold/Montserrat-SemiBold-webfont.eot?iefix') format('eot'), url('web_fonts/montserrat_bold/Montserrat-SemiBold-webfont.woff') format('woff'), url('web_fonts/montserrat_bold/Montserrat-SemiBold-webfont.ttf') format('truetype'), url('web_fonts/montserrat_bold/Montserrat-SemiBold-webfont.svg#webfont') format('svg');
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url('web_fonts/montserrat_bold/Montserrat-Medium-webfont.eot');
-    src: url('web_fonts/montserrat_bold/Montserrat-Medium-webfont.eot?iefix') format('eot'), url('web_fonts/montserrat_bold/Montserrat-Medium-webfont.woff') format('woff'), url('web_fonts/montserrat_bold/Montserrat-Medium-webfont.ttf') format('truetype'), url('web_fonts/montserrat_bold/Montserrat-Medium-webfont.svg#webfont') format('svg');
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url('web_fonts/montserrat_bold/Montserrat-Light-webfont.eot');
-    src: url('web_fonts/montserrat_bold/Montserrat-Light-webfont.eot?iefix') format('eot'), url('web_fonts/montserrat_bold/Montserrat-Light-webfont.woff') format('woff'), url('web_fonts/montserrat_bold/Montserrat-Light-webfont.ttf') format('truetype'), url('web_fonts/montserrat_bold/Montserrat-Light-webfont.svg#webfont') format('svg');
-    font-weight: 200;
-}
 
 h1,
 h2,
