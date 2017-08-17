@@ -206,11 +206,44 @@ h2 {
 
 h3 {
     font-size: 1.6rem;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 h4 {
+    color: #FF5AA2;
     font-weight: 500;
+    font-size: 1.6rem;
+}
+
+mark {
+    position: relative;
+    bottom: 3px;
+    margin: 0 2px;
+    padding: 0 7px;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    color: #3A3A3A;
+    font-weight: 200;
+}
+
+.tag_pd {
+    background-color: #EDF8F0;
+}
+
+.tag_ux {
+    background-color: #F8EDF6;
+}
+
+.tag_dev {
+    background-color: #EDF6F8;
+}
+
+.tag_art {
+    background-color: #EEEDF8;
+}
+
+.title_wrapper * {
+    display: inline-block;
 }
 
 .social_links {
@@ -249,8 +282,8 @@ a {
 
 a:hover {
     color: #FF5AA2;
-    border-radius: 5px;
-    background-color: #B1EDE8;
+    /*border-radius: 5px;*/
+    /*background-color: #B1EDE8;*/
 }
 
 .gallery a:hover {
@@ -379,7 +412,7 @@ li {
 }
 
 .acc h3 {
-    margin: 0;
+    margin: 0 8px 0 0;
     font-size: 2.2rem;
     cursor: default;
 }
